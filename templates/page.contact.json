@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -7,12 +16,17 @@
         "padding_bottom": 36
       }
     },
-    "form": {
-      "type": "contact-form",
+    "video_azqcKp": {
+      "type": "video",
       "settings": {
         "heading": "",
-        "heading_size": "h1",
-        "color_scheme": "scheme-1",
+        "heading_size": "h2",
+        "enable_video_looping": true,
+        "video": "shopify://files/videos/banner-skyline.mp4",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "description": "about-krysylis",
+        "full_width": true,
+        "color_scheme": "",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -20,6 +34,6 @@
   },
   "order": [
     "main",
-    "form"
+    "video_azqcKp"
   ]
 }
