@@ -6,17 +6,27 @@
   --focused-base-outline: 0.2rem solid rgba(var(--color-foreground), 0.5);
   --focused-base-outline-offset: 0.3rem;
   --focused-base-box-shadow: 0 0 0 0.3rem rgb(var(--color-background)), 0 0 0.5rem 0.4rem rgba(var(--color-foreground), 0.3);
+  --font-body-family: 'Outfit', sans-serif;
+  --font-heading-family: 'Outfit', sans-serif;
 }
 
-// <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 100 to 900
-
-.outfit-<uniquifier> {
-  font-family: "Outfit", serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+body {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 300;
 }
+
+h3, h4, h5, h6, .subheading {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 600;
+}
+
+h1, h2, .heading {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 800;
+}
+
+
+
 .product-card-wrapper .card,
 .contains-card--product {
   --border-radius: var(--product-card-corner-radius);
