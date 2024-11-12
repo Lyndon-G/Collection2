@@ -9,20 +9,28 @@
  */
 {
   "sections": {
-    "video_ELiY9w": {
-      "type": "video",
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "enable_video_looping": true,
-        "video": "shopify://files/videos/banner-skyline.mp4",
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "description": "banner-manchester",
-        "full_width": true,
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
+    "vidtest_hGAKNz": {
+      "type": "vidtest",
+      "blocks": {
+        "video_VfAT7w": {
+          "type": "video",
+          "settings": {
+            "video_link": "https://cdn.shopify.com/videos/c/o/v/8aebb2ee26cd472292a6f6da2085443c.mp4",
+            "overlay_opacity": 0,
+            "title": "",
+            "text": "",
+            "color_text": "#ffffff",
+            "button_label": "",
+            "button_link": "shopify://pages/hoodie-details",
+            "color_btn_bg": "#121212",
+            "color_btn_text": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "video_VfAT7w"
+      ],
+      "settings": {}
     },
     "slideshow_qUEpwd": {
       "type": "slideshow",
@@ -39,29 +47,6 @@
     },
     "slideshow_GrRAQP": {
       "type": "slideshow",
-      "blocks": {
-        "slide_46im4i": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "heading": "ENIGMATIC ELEGANCE",
-            "heading_size": "h0",
-            "subheading": "",
-            "button_label": "SHOP NOW",
-            "link": "",
-            "button_style_secondary": true,
-            "box_align": "bottom-left",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 30,
-            "color_scheme": "accent-2",
-            "text_alignment_mobile": "center"
-          }
-        }
-      },
-      "block_order": [
-        "slide_46im4i"
-      ],
       "settings": {
         "layout": "full_bleed",
         "slide_height": "large",
@@ -120,7 +105,7 @@
     }
   },
   "order": [
-    "video_ELiY9w",
+    "vidtest_hGAKNz",
     "slideshow_qUEpwd",
     "slideshow_GrRAQP",
     "multicolumn_FT7Xxg"
