@@ -9,29 +9,6 @@
  */
 {
   "sections": {
-    "vidtest_hGAKNz": {
-      "type": "vidtest",
-      "blocks": {
-        "video_VfAT7w": {
-          "type": "video",
-          "settings": {
-            "video_link": "https://cdn.shopify.com/videos/c/o/v/8aebb2ee26cd472292a6f6da2085443c.mp4",
-            "overlay_opacity": 0,
-            "title": "",
-            "text": "",
-            "color_text": "#ffffff",
-            "button_label": "",
-            "button_link": "shopify://pages/hoodie-details",
-            "color_btn_bg": "#121212",
-            "color_btn_text": "#ffffff"
-          }
-        }
-      },
-      "block_order": [
-        "video_VfAT7w"
-      ],
-      "settings": {}
-    },
     "slideshow_qUEpwd": {
       "type": "slideshow",
       "settings": {
@@ -57,11 +34,25 @@
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
       }
+    },
+    "video_background_HAeHHh": {
+      "type": "video-background",
+      "settings": {
+        "video_url": "",
+        "video_mp4": "https://cdn.shopify.com/videos/c/o/v/8aebb2ee26cd472292a6f6da2085443c.mp4",
+        "overlay_opacity": 50,
+        "heading": "TITLE",
+        "text": "<p>DESCRIPTION</p>",
+        "text_color": "text-white",
+        "button_text": "Shop Now",
+        "button_link": "",
+        "button_style": "btn-primary"
+      }
     }
   },
   "order": [
-    "vidtest_hGAKNz",
     "slideshow_qUEpwd",
-    "slideshow_GrRAQP"
+    "slideshow_GrRAQP",
+    "video_background_HAeHHh"
   ]
 }
