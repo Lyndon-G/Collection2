@@ -23,7 +23,7 @@
           "type": "video",
           "settings": {
             "video_link": "https://drive.google.com/file/d/1zGX8dpNFBQBbOmVEndsiVYe7yLY3yOmj/view?usp=drive_link",
-            "overlay_opacity": 0,
+            "overlay_opacity": 45,
             "title": "Video slide",
             "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
             "color_text": "#ffffff",
