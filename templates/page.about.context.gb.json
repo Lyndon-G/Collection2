@@ -12,5 +12,11 @@
   "context": {
     "market": "gb"
   },
-  "sections": {}
+  "sections": {
+    "main": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    }
+  }
 }
