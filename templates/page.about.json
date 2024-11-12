@@ -24,7 +24,7 @@
           "type": "video",
           "settings": {
             "video_link": "https://cdn.shopify.com/videos/c/o/v/0360af63f75141ed918c6be628f607c1.mp4",
-            "overlay_opacity": 0,
+            "overlay_opacity": 42,
             "title": "",
             "text": "<p><strong>KRYSYLIS</strong>, handmade in London.Started as a solo design project by Manchester born artist (J).Metamorphosed, into an identity that explores the process of change.Irrespective of contemporary origin,</p><p><strong>KRYSYLIS</strong>reflects a timeless attitude towards design.Our understated ethos is what allows</p><p><strong>KRYSYLIS</strong>to stay grounded.Made for you, an experience uncorrupted by the status quo.</p>",
             "color_text": "#121212",
@@ -39,10 +39,58 @@
         "video_9exB3m"
       ],
       "settings": {}
+    },
+    "image_banner_mqjwiA": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_Nyf6F3": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "text_PnbHyL": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "buttons_f7qbWr": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_Nyf6F3",
+        "text_PnbHyL",
+        "buttons_f7qbWr"
+      ],
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
     "main",
-    "vidtest_dCteAJ"
+    "vidtest_dCteAJ",
+    "image_banner_mqjwiA"
   ]
 }
